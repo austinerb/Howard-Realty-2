@@ -1,0 +1,318 @@
+body{
+  font-family:'Roboto';
+}
+
+h1, h2, h3, h4, h5, h6, body{
+  color:#555;
+}
+
+.jumbotron p, .jumbotron h1{
+  color:white;
+}
+
+div#logo-home.container{
+  margin:auto;
+}
+
+.navbar-default{
+  background-image:none;
+  border-radius:0;
+  -webkit-box-shadow:none;
+  background-color:#fafafa;
+  -webkit-box-shadow:0px 4px 5px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow:0px 4px 5px 0px rgba(0,0,0,0.4);
+  box-shadow:0px 4px 5px 0px rgba(0,0,0,0.4);
+  text-shadow:none;
+  border:none;
+  color:#555;
+  font-size:1.2em;
+  padding:0;
+}
+
+footer{
+  padding:10px;
+  width:100%;
+  bottom:0;
+  border-top:1px solid #ccc;
+  margin-top:20px;
+  background-color:#e0e0e0;
+}
+
+@media (max-width:767px) {
+  img#logo-home{
+    width:275px;
+  }
+}
+
+img#map{
+  margin:auto;
+  padding:5px;
+}
+
+.glyphicon{
+  font-size:3em;
+}
+
+.card{
+  background-color:white;
+  margin:auto;
+  padding:40px;
+  -webkit-box-shadow:0px 2px 5px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow:0px 2px 5px 0px rgba(0,0,0,0.4);
+  box-shadow:0px 2px 5px 0px rgba(0,0,0,0.4);
+  margin-bottom:15px;
+  border-radius:1.5px;
+}
+
+div#test{
+  height:100px;
+}
+
+body{
+  background-color:#eee;
+  font-size:1.5em;
+  line-height:1.8;
+  letter-spacing:.1px;
+  padding-top:70px;
+}
+
+.card-btn{
+  background-color:transparent;
+  border:none;
+  color:black;
+  outline:none;
+  background-image:none;
+  border-radius:2px;
+  -webkit-box-shadow:0px 1px 5px 0px rgba(0,0,0,0.4);
+  -moz-box-shadow:0px 1px 5px 0px rgba(0,0,0,0.4);
+  box-shadow:0px 1px 5px 0px rgba(0,0,0,0.4);
+  text-shadow:none;
+  padding:8px 20px;
+}
+
+a#btn-rent.btn.btn-default.card-btn{
+  background-color:#2196f3;
+  color:white;
+  text-decoration:none;
+  margin-top:10px;
+  font-size:1.2em;
+}
+
+a#btn-rent.btn.btn-default.card-btn:hover{
+  background-color:#d4d4d4;
+  color:#333;
+}
+
+a#btn-contact.btn.btn-default.card-btn:hover{
+  background-color:#d4d4d4;
+  color:#333;
+}
+
+a#btn-contact.btn.btn-default.card-btn{
+  background-color:#43a047;
+  color:white;
+  margin-top:10px;
+  font-size:1.2em;
+}
+
+div#home-about{
+  border-left:1px solid #ccc;
+  padding:20px;
+  font-size:1.2em;
+}
+
+div#home-navcards.container{
+  margin-bottom:20px;
+}
+
+.nav{
+  text-shadow:none;
+  margin-top:10px;
+}
+
+.nav > li{
+  text-shadow:none;
+}
+
+div#home-about-title{
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+  color:inherit;
+}
+
+.navbar-default .navbar-brand{
+  color:#666;
+  font-size:1.6em;
+  font-weight:500;
+  text-shadow:none;
+  margin:6.5px;
+  font-family:'Slabo 27px';
+}
+
+.navbar-default .navbar-link{
+  color:inherit;
+  text-shadow:none;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+  color:inherit;
+  background-color:transparent;
+  text-shadow:none;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a{
+  background-image:none;
+  -webkit-box-shadow:none;
+  box-shadow:none;
+  border-bottom:3px solid #5f8eeb;
+  text-shadow:none;
+}
+
+.jumbotron{
+  padding:60px 0;
+  background:url('../../assets/img/jumbo.jpg') no-repeat center;
+  background-size:cover;
+  margin-top:-20px;
+}
+
+@media screen and (min-width:768px) {
+  .jumbotron{
+    padding:100px 0;
+  }
+}
+
+.navbar-toggle{
+  padding:24px 25px;
+  margin-top:0px;
+  margin-right:0;
+  margin-bottom:0px;
+  border:none;
+  border-radius:0;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+  background-color:transparent;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+  background-color:transparent;
+}
+
+div#aaa{
+}
+
+div#contact-info.card{
+  padding-top:18px;
+}
+
+div#card-map.card{
+  padding:0;
+}
+
+h1#contact-heading{
+  margin-bottom:25px;
+  margin-top:10px;
+}
+
+div#conctact-info.row{
+  margin-bottom:30px;
+}
+
+p.contact-p{
+  margin-bottom:0;
+  font-size:1.2em;
+}
+
+img.rent-img{
+  width:100%;
+  max-width:400px;
+}
+
+div.card.rent-card{
+  padding:0;
+  padding-bottom:15px;
+}
+
+p.text-center.rent-bed{
+  margin:0;
+  margin-bottom:-5px;
+}
+
+.rent-btn{
+  background-color:#2196f3;
+  color:white;
+  margin-top:6px;
+}
+
+div#item-card-img.card{
+  padding:0;
+}
+
+img#item-img{
+  padding:5px;
+}
+
+img#item-map.card{
+  padding:5px;
+}
+
+.navbar-nav > li > a{
+  text-shadow:none;
+  color:white;
+}
+
+.navbar-default .navbar-nav > li > a{
+  color:#555;
+}
+
+h1#rent-heading{
+  margin-top:10px;
+  margin-bottom:25px;
+}
+
+h3#rent-title.text-center{
+  margin-bottom:15px;
+}
+
+h1#item-title.text-center{
+  margin-top:10px;
+  margin-bottom:0;
+}
+
+h3#item-title-2.text-center{
+  margin-top:10px;
+  margin-bottom:20px;
+  padding-bottom:20px;
+  border-bottom:1px solid #ccc;
+}
+
+div#item-contact.col-md-12{
+  margin-top:15px;
+  margin-bottom:25px;
+}
+
+.jumbo-mini{
+  background:url('../../assets/img/jumbo.jpg') no-repeat center;
+  background-size:cover;
+  margin-top:-20px;
+  margin-bottom:10px;
+  padding:20px;
+}
+
+div.col-lg-4.col-md-4.col-sm-6.col-xs-12{
+  font-size:1.2em;
+}
+
+.rent-card.p{
+  font-size:1.2em;
+}
+
+.rent-card p{
+  font-size:1.2em;
+}
+
+a.btn.btn-default.card-btn.rent-btn{
+  font-size:1em;
+}
+
