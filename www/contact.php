@@ -3,8 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <title>Howard Realty</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700,500,300">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Slabo+27px">
@@ -19,22 +19,17 @@
             </div>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active" role="presentation"><a href="index.html">HOME </a></li>
-                    <li role="presentation"><a href="rent.html">RENT </a></li>
-                    <li role="presentation"><a href="contact.html">CONTACT </a></li>
+                    <li role="presentation"><a href="index.html">HOME </a></li>
+                    <li role="presentation"><a href="rent.php">RENT </a></li>
+                    <li class="active" role="presentation"><a href="contact.php">CONTACT </a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <div class="jumbotron jumbo-mini"></div>
     <div class="container">
-        <h1 class="text-left" id="contact-heading">Contact Us</h1>
+        <h1 class="text-left" id="contact-heading">Contact</h1>
         <div class="row" id="conctact-info">
-            <div class="col-md-6 col-sm-6 col-xs-12">
-                <div id="card-map">
-                    <p class="text-left"> <img src="assets/img/map2.png" width="100%" id="map" class="card"></p>
-                </div>
-            </div>
             <div class="col-sm-6 col-xs-12">
                 <h3>Phone </h3>
                 <p class="contact-p">(336) 883-9602</p>
@@ -44,6 +39,20 @@
                 <h3>Location </h3>
                 <p class="contact-p">918 Ferndale Blvd</p>
                 <p class="contact-p">High Point, NC 27262</p>
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <div id="card-map">
+                    <p class="text-left">
+						<?php
+							$key = "AIzaSyCXpRX_RYyJ4B9mZeFwoB1l0VeR0-9nujA";
+							$address = "918 Ferndale blvd, High point, NC 27262";
+							$url_address = urlencode($address);
+							$gm_url = "https://www.google.com/maps/embed/v1/place?key=$key&q=$url_address";
+						?>
+
+						<iframe src="<?php echo $gm_url;?>" width="100%" id="map" class="card"></iframe>
+					</p>
+                </div>
             </div>
         </div>
     </div>
