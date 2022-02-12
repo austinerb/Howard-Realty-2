@@ -38,7 +38,7 @@
         </div>
     </div>
     <footer>
-        <h4 class="text-center">© 2014 – 2016 Howard Realty&nbsp; </h4></footer>
+        <h4 class="text-center">© 2014 – 2022 Howard Realty&nbsp; </h4></footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
