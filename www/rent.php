@@ -28,6 +28,7 @@
                     <li role="presentation"><a href="index.html">HOME </a></li>
                     <li class="active" role="presentation"><a href="rent.php">RENT </a></li>
                     <li role="presentation"><a href="contact.php">CONTACT </a></li>
+                    <li role="presentation"><a href="pay.php">PAY RENT </a></li>
                 </ul>
             </div>
         </div>

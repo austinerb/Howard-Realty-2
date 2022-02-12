@@ -21,22 +21,19 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li role="presentation"><a href="index.html">HOME </a></li>
                     <li role="presentation"><a href="rent.php">RENT </a></li>
-                    <li class="active" role="presentation"><a href="contact.php">CONTACT </a></li>
-                    <li role="presentation"><a href="pay.php">PAY RENT </a></li>
+                    <li role="presentation"><a href="contact.php">CONTACT </a></li>
+                    <li class="active" role="presentation"><a href="pay.php">PAY RENT </a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <div class="jumbotron jumbo-mini"></div>
     <div class="container">
-        <h1 class="text-left" id="contact-heading">Contact</h1>
+        <h1 class="text-left" id="contact-heading">Pay Rent</h1>
         <div class="row" id="conctact-info">
             <div class="col-sm-6 col-xs-12">
-                <h3>Phone </h3>
-                <p class="contact-p">(336) 883-9602</p>
-                <h3>Mailing Address</h3>
-                <p class="contact-p">PO Box 5733</p>
-                <p class="contact-p">High Point, NC 27262</p>
+                <h3>Pay with Zelle </h3>
+                <p class="contact-p">Download the Zelle app on Android or iOS, or use Zelle with your online banking app to send a payment to <strong>jackhoward@twc.com</strong> or <strong>(336) 883-9602</strong>.</p>
             </div>
         </div>
     </div>
