@@ -33,7 +33,7 @@
         <div class="row" id="conctact-info">
             <div class="col-sm-6 col-xs-12">
                 <h3>Pay with Zelle </h3>
-                <p class="contact-p">Download the Zelle app on Android or iOS, or use Zelle with your online banking app to send a payment to <strong>jackhoward@twc.com</strong> or <strong>(336) 883-9602</strong>.</p>
+                <p class="contact-p">Download the Zelle app on Android or iOS, or use Zelle with your online banking app, to send a payment to <strong>jackhoward@twc.com</strong></p>
             </div>
         </div>
     </div>
