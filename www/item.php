@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
     <title>Howard Realty</title>
+    <script defer src="assets/js/scripts.js" charset="utf-8"></script>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700,500,300">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Slabo+27px">
